@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	&::before {
+		box-sizing: border-box;
+	}
+	&::after {
+		box-sizing: border-box;
+	}
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+ul {
+	padding: 0;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+input,
+select,
+textarea,
+button {
+	margin: 0;
+}
+
+svg,
+img,
+video {
+	height: auto;
+	vertical-align: bottom;
+	object-fit: cover;
+}
+
+button {
+	padding: 0;
+	border: 0;
+	background: transparent;
+	cursor: pointer;
+}
