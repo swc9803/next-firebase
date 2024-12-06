@@ -1,4 +1,4 @@
-const SingIn = () => {
+const SingUp = () => {
 	return (
 		<div className="container">
 			<section>SignUp</section>
@@ -6,4 +6,4 @@ const SingIn = () => {
 	);
 };
 
-export default SingIn;
+export default SingUp;
