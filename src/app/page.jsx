@@ -12,7 +12,7 @@ export default function Home() {
 		name: "",
 		age: "",
 	});
-	const [editData, setEditData] = useState(null); // 수정 중인 데이터
+	const [editData, setEditData] = useState(null);
 	const [selectedClass, setSelectedClass] = useState("1반");
 	const [modal, setModal] = useState({ visible: false, message: "" });
 
